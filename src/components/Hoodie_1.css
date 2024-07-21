@@ -1,0 +1,14 @@
+.hoodies {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hoodie-description p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.minus, .num, .plus {
+    font-size: 18px;
+}

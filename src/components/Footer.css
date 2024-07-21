@@ -1,0 +1,104 @@
+.footer {
+    height: 400px;
+    margin-top: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-logo {
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+}
+
+.shop {
+    position: relative;
+    bottom: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+.quick-links {
+    position: relative;
+    bottom:45px;
+    right: 30px;
+}
+
+.quick-links a, .shop a {
+    position: relative;
+    right: 20px;
+    text-decoration: none;
+}
+
+.footer a {
+    color: #ABAFB5;
+}
+
+.footer a:hover {
+    color: #FFFFFF;
+}
+
+.quick-links a, .shop a  {
+    line-height: 28px;
+}
+
+.quick-links p, .shop p, .connect p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.connect p {
+    position: relative;
+    bottom: 78px;
+}
+
+.connect img {
+    position: relative;
+    bottom: 70px;
+    margin-right: 5px;
+}
+
+.copyright {
+    height: 0;
+    background-color: #000000;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    color: #FFFFFF;
+}
+
+@media(max-width: 907px) {
+    .footer {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+
+    .quick-links {
+        position: relative;
+        top: 1px;
+    }
+
+    .shop {
+        position: relative;
+        left: 20px;
+    }
+
+    .connect {
+        position: relative;
+        top: 20px;
+    }
+    
+}

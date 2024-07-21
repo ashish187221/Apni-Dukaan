@@ -1,0 +1,67 @@
+/* Center the login page horizontally */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height to viewport height */
+  }
+  
+  /* Style the login form */
+  .login {
+    padding: 0px 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center; /* Center text within the form */
+  }
+  
+  /* Style headings */
+
+  
+  /* Style labels */
+  label {
+    /* display: block; */
+    font-weight: bold;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style button */
+  #lg-btn {
+    background-color: #6674CC; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 7%;
+  }
+
+  #lg-btn {
+    text-decoration: none;
+  }
+  
+  /* Style button hover effect */
+  .lg-btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Style footer links */
+  .footer-links {
+    margin-top: 20px;
+  }
+  
+  .footer-links a {
+    color: #6674CC; /* Green color */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+  }
+  
